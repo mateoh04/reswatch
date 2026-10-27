@@ -1,5 +1,14 @@
 # RESWATCH · Laboratorio inmersivo
 
+## ▶ Jugar en el navegador
+
+**[Abrir RESWATCH](https://mateoh04.github.io/reswatch/)**
+
+No necesitas instalar nada. La publicación se actualiza automáticamente al integrar cambios en `main`. El enlace estará disponible tras completar el primer despliegue de GitHub Pages.
+
+**Configuración inicial del propietario:** en [Settings → Pages](https://github.com/mateoh04/reswatch/settings/pages), selecciona **GitHub Actions** como fuente de publicación. Después integra este PR en `main`; el workflow `.github/workflows/pages.yml` compila y publica el juego. Si lo habilitas después del merge, ejecuta el workflow manualmente desde la pestaña Actions.
+
+
 Experiencia interactiva en español con Three.js y Vite, basada directamente en `base.obj` y en el boceto industrial de referencia.
 
 ## Ejecutar
